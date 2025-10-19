@@ -5,10 +5,17 @@ import './App.css'
 
 function Profile() {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3Am.jpg"
-      alt="Katherine Johnson"
-    />
+    <div id="bg">
+      <div class="container">
+          <img
+        src="https://i.imgur.com/MK3eW3Am.jpg"
+        alt="Katherine Johnson"
+      />
+      <div><h1>Hello there! I'm Katherine. How about you?</h1></div>
+      </div>
+      
+    </div>
+    
   );
 }
 
